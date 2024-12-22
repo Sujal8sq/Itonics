@@ -1,0 +1,16 @@
+{
+  "name": "AssissmentSujal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dashboard": "npx cypress run --spec ./cypress/e2e/dashboard/ --browser chrome --headed"
+  },
+  "author": "sujal",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
